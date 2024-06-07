@@ -1,0 +1,122 @@
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/blogToShowBackground.jpg");
+    background-size: cover;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.homeButton {
+    top: 2vh;
+    width: 6vw;
+    height: 4vh;
+    margin-left: 47vw;
+    margin-bottom: -15vh;
+    border: none;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(43, 43, 43);
+    background-color: rgba(105, 105, 105, 0);
+    cursor: pointer;
+}
+
+.titleAndCategory {
+    margin-left: 10vw;
+    margin-top: 5vh;
+
+}
+
+.imageAndContent {
+    display: flex;
+    align-items: start;
+    overflow: auto;
+}
+
+.image {
+    width: 30vw;
+    height: 45vh;
+    border: none;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 36px 0px;
+}
+
+.title {
+    font-size: 6vh;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant-caps: petite-caps;
+    color: rgb(61, 61, 61);
+    
+}
+
+.category {
+    margin-right: 0;
+    color: rgb(141, 141, 141);
+}
+
+.content {
+    width: 25vw;
+    padding: 2vh 2vw 2vh 2vw;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.commentSection {
+    margin-left: 10vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 30vw;
+    height: 50vh;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    overflow-y: auto;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 36px 0px;
+}
+
+.commentInput {
+    margin-top: 2vh;
+    margin-left: 2vw;
+    width: 25vw;
+    height: 5vh;
+    border: 1px rgba(19, 19, 19, 0.507);
+    font-size: medium;  
+    outline: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.commentInput ::placeholder {
+    text-align: center;
+}
+
+.commentButton {
+    margin-left: 5%;
+    margin-top: 2vh;
+    width: 18%;
+    height: 4vh;
+    border-radius: 20px;
+    background-color: rgb(39, 115, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.comment {
+    margin-top: 2vh;
+    margin-left: 2vw;
+    padding-top: 1vh;
+    width: 25vw;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid lightgray;
+}
+

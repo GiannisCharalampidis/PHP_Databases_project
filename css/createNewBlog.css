@@ -1,0 +1,104 @@
+body {
+    background-size: cover;
+    background-image: url('../images/createNewBlogBackground.jpg');
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body h1 {
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 10px 10px 30px white;
+}
+
+#createNewBlog {
+    background-color: rgb(212, 212, 212);
+    width: 70vw;
+    height: 80vh;
+    margin-left: 15vw;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: auto;
+}
+
+#createNewBlog input:focus {
+    outline: 0px;
+}
+
+#createNewBlog label {
+    margin-left: 5%;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#title {
+    margin-left: 5%;
+    width: 40%;
+    height: 5%;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#content {
+    margin-left: 5%;
+    width: 80%;
+    height: 50%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#content:focus {
+    outline: 0px;
+}
+
+#image {
+    margin-left: 5%;
+    border: none;
+}
+
+.submit-btn {
+    margin-left: 5%;
+    width: 8%;
+    height: 4vh;
+    border-radius: 20px;
+    background-color: rgb(39, 115, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+input[type='file'] {
+    display: none;
+}
+
+.imageSubmit {
+    cursor: pointer;
+    display: inline-block;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    text-align: center;
+    padding: 18px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 10px;
+}
+
+#category {
+    border: none;
+    width: 5vw;
+    height: 3vh;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 10px;
+}
+
+#category:focus {
+    outline: 0px;
+}

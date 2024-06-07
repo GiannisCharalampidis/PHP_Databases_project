@@ -1,0 +1,77 @@
+body {
+    background-image: url('../images/myCommentsBackground.jpg');
+    background-size: cover;
+
+}
+
+.homeButton {
+    top: 2vh;
+    width: 6vw;
+    height: 4vh;
+    margin-left: 47vw;
+    margin-bottom: -15vh;
+    border: none;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(247, 247, 247);
+    background-color: rgba(105, 105, 105, 0);
+    cursor: pointer;
+}
+
+.CommentsDiv {
+    margin-top: 5vh;
+    margin-left: 20vw;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+    width: 60vw;
+    padding: 2vh;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 10px;
+    background-color: rgb(212, 212, 212);
+}
+
+.updateBtn {
+    margin-left: 37%;
+    margin-bottom: 2%;
+    width: 8%;
+    height: 4vh;
+    border-radius: 20px;
+    background-color: rgb(39, 115, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.deleteBtn {
+    width: 8%;
+    height: 4vh;
+    border-radius: 20px;
+    background-color: rgb(179, 19, 19);
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#comment {
+    width: 50vw;
+    height: 5vh;
+    margin-left: 5%;
+    margin-bottom: 2vh;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    font-weight: 200;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title {
+    margin-left: 5%;
+    margin-bottom: 2vh;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}

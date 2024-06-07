@@ -1,0 +1,91 @@
+body {
+    background-size: cover;
+    background-image: url('../images/createUserBackground.jpg');
+}
+
+.homeButton {
+    width: 6vw;
+    height: 4vh;
+    margin-left: 47vw;
+    margin-bottom: -15vh;
+    border: none;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    background-color: rgba(105, 105, 105, 0);
+    cursor: pointer;
+}
+
+.createUser {
+    width: 30vw;
+    height: 45vh;
+    margin-left: 5vw;
+    margin-top: 30vh;
+    text-align: center;
+    background-color: rgba(224, 224, 224, 0);
+    font-size: x-large;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(61, 61, 61);
+    font-weight: 300;
+}
+
+.createUser input {
+    border: none;
+    border-radius: 15px;
+    width: 80%;
+    height: 10%;
+    font-size: 70%;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.274);
+}
+
+.createUser input:focus {
+    outline: 0px;
+}
+
+.createUser input::placeholder {
+    color: rgba(0, 0, 0, 0.330);
+}
+
+.createUser input:hover::placeholder {
+    color: transparent;
+}
+
+#roleSelection {
+    justify-content: space-between;
+    color: rgb(59, 59, 59);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+#roleSelection input {
+    width: 3%;
+    box-shadow: none;
+}
+
+#roleSelection input:hover {
+    cursor: pointer;
+}
+
+#roleSelection label:hover {
+    cursor: pointer;
+}
+
+#create-btn {
+    background-color: rgb(64, 103, 187);
+    color: rgb(246, 250, 253);
+    border-radius: 20px;
+    height: 12%;
+    width: 30%;
+    font-size: large;
+    font-weight: 100;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#create-btn:hover {
+    cursor: pointer;
+}

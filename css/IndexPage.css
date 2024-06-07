@@ -1,0 +1,232 @@
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/indexBackground.jpg");
+    background-size: cover;
+    z-index: -1;
+}
+
+.mainMenu {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CenterMenu {
+    padding-top: 2vh;
+    overflow: hidden;
+    width: 40vw;
+    text-align: center;
+    margin-left: 30vw;
+}
+ 
+.CenterMenu button {
+    margin-right: 5vw;
+    font-size: x-large;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: rgba(136, 136, 136, 0);
+    cursor:pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Login {
+    padding-right: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Login button {
+    top: 2vh;
+    width: 5vw;
+    height: 4vh;
+    align-items: center;
+    background-color: #3EB2FD;
+    background-image: linear-gradient(1deg, #202022, #656566 99%);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s,background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#ProfileButton {
+    top: 2vh;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.blog {
+    flex: 1 0 20%;
+    padding-left: 5vw;
+    margin: 1em;
+    box-sizing: border-box;
+}
+
+.blog-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 3vh;
+    color: rgb(68, 68, 68);
+}
+
+.blog a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+.blog-image {
+    width: 20vw;
+    height: 22vh;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px rgb(167, 167, 167) solid;
+    box-shadow: rgba(0, 0, 0, 0.75) 5px 5px 15px;
+}
+
+.blogs-displayed {
+    width: 80vw;
+    margin-left: 5vw;
+    margin-top: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; 
+}
+
+.pagination {
+    position: fixed;
+    width: 100vw;
+    bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.pagination button {
+    position: relative;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.WelmcomeUser {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.500);
+    margin-top: 2vh;
+    margin-right: 1vw;
+
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .mainMenu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .CenterMenu {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    .Login {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Login button {
+        width: 40vw;
+        height: auto;
+        margin-top: 2vh;
+    }
+
+    .blogs-displayed {
+        width: 90vw;
+        margin-left: 5vw;
+        margin-top: 10vh;
+    }
+
+    .pagination {
+        position: static;
+        margin-top: 2vh;
+    }
+
+    .pagination button {
+        width: 10vw;
+        height: 6vh;
+    }
+}
+@media screen and (max-width: 480px) {
+    .blog {
+        flex: 1 0 100%;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .blog-title {
+        font-size: 3vh;
+    }
+
+    .blog-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .blogs-displayed {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10vh;
+    }
+
+    .pagination button {
+        width: 20vw;
+    }
+}
+

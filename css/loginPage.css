@@ -1,0 +1,70 @@
+body {
+    background-size: cover;
+    background-image: url('../images/loginPageBackground.jpg');
+}
+
+.homeButton {
+    width: 6vw;
+    height: 4vh;
+    margin-left: 47vw;
+    margin-bottom: -15vh;
+    border: none;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(197, 197, 197);
+    background-color: rgba(105, 105, 105, 0);
+    cursor: pointer;
+}
+
+.loginForm {
+    width: 20vw;
+    height: 40vh;
+    margin-left: 5vw;
+    margin-top: 50vh;
+    text-align: center;
+    background-color: rgba(224, 224, 224, 0);
+    font-size: x-large;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(235, 235, 235);
+    font-weight: 300;
+}
+
+.loginForm input {
+    border: none;
+    border-radius: 15px;
+    width: 80%;
+    height: 10%;
+    font-size: 70%;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.274);
+}
+
+.loginForm input:focus {
+    outline: 0px;
+}
+
+.loginForm input::placeholder {
+    color: rgba(0, 0, 0, 0.330);
+}
+
+.loginForm input:hover::placeholder {
+    color: transparent;
+}
+
+#login-btn {
+    background-color: rgb(64, 103, 187);
+    color: rgb(246, 250, 253);
+    border-radius: 20px;
+    height: 12%;
+    width: 30%;
+    font-size: large;
+    font-weight: 100;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#login-btn:hover {
+    cursor: pointer;
+}
